@@ -6,11 +6,12 @@
   "scripts": {
     "build": "tsc",
     "dev:server": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts",
-    "start":"node dist/server.js"
+    "start": "node dist/server.js"
   },
   "dependencies": {
     "base64url": "^3.0.1",
     "date-fns": "^2.24.0",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "md5": "^2.3.0",
     "sha256": "^0.2.0",
